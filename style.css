@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(./pic/tree-64310.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 22%;
+    /* position: relative; */
+}
+.navigation{
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.nav-ele ul{
+    list-style: none;
+    /* border: 2px solid rgb(12, 0, 0); */
+    display: flex;
+    width: 42vw;
+    height: 5vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-ele ul li{
+    /* border: 2px solid red; */
+    padding: .4vw 1vw;
+    margin-left: 4%;
+}
+.nav-ele ul a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.1s;
+}
+
+.nav-ele ul li a:hover{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.5vh;
+}
+
+.logo img{
+    width: 5vw;
+    height: 5vw;
+    margin-left: 10%;
+}
+
+.container{
+    width: 100vw;
+    height: 85vh;
+    /* border: 2px solid blue; */
+    display: flex;
+}
+
+.first-block{
+    width: 50vw;
+    height: 85vh;
+    /* border: 2px solid rgb(255, 0, 212); */
+}
+.second-block{
+    width: 51vw;
+    height: 81vh;
+    /* border: 2px solid rgb(0, 255, 106); */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1vw;
+}
+.second-block img{
+    height: 14vw;
+    width: 17vw;
+    border-radius: 1vw;
+    /* box-shadow: 2px 2px 2px black; */
+    transition: all 0.2s;
+}
+.second-block img:hover{
+    transform: scale(1.06);
+}
+
+.align{
+    text-align: center;
+}
+.first-block-heading{
+    font-size: 2.4em;
+}
+.first-block-btn{
+    width: 14vw;
+    height: 5vh;
+    margin: 1.2vw 0 0 18vw;
+    border-radius: 9px;
+    display: block;
+    background-color: black;
+    color: white;
+    letter-spacing: 0.11em;
+    transition: all 0.1s;
+}
+.first-block-btn:hover{
+   transform: scale(1.02);
+   box-shadow: 2px 2px 2px #8c7e7d;
+   letter-spacing: 0.2em;
+}
+
+.table{
+    border: 2px solid #8c7e7d;
+    height: 55vh;
+    width: 38vw;
+    text-align: left;
+    margin: auto;
+    margin-top: 0.77vw;
+    border-radius: 1vh;
+    padding: 1.4%;
+    background-color: #d3946e17;
+
+}
+
+
+
+.table td{
+    font-weight: bold;
+}
+
+.copy-right{
+    background-color: black;
+    color: white;
+    display: flex;
+   justify-content: center;
+   letter-spacing: 0.5vh;
+}
